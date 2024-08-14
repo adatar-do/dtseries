@@ -1,0 +1,39 @@
+Package: dtseries
+Title: Enhanced Time Series Manipulation and Visualization in R
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Daniel E.",
+           family = "de la Rosa",
+           role = c("aut", "cre"),
+           email = "me@dnldelarosa.com"),
+    person(given = "Adatar",
+           role = "cph"))
+Description: The 'dtseries' package provides a collection of functions to extend 
+             the capabilities of R's native 'ts' class, offering convenient tools for 
+             manipulating, transforming, visualizing, and analyzing time series data. 
+             It includes functions for merging, splitting, resizing, extending, 
+             calculating time changes, generating seasonal dummies, detecting 
+             breakpoints, and more.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    cli,
+    dplyr,
+    DT,
+    forecast,
+    ggplot2,
+    janitor,
+    lmtest,
+    lubridate,
+    magrittr,
+    purrr,
+    rlang,
+    stringr,
+    strucchange,
+    tidyr,
+    tseries,
+    xts
+Suggests:
+    patchwork,
